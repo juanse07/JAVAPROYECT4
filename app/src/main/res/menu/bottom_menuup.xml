@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="@string/Doc_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_more"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_add"
+        android:title="@string/New_Costumer"
+        app:showAsAction="never" />
+<!--    <item-->
+<!--        android:id="@+id/action_calc"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_smartp"-->
+<!--        android:title="Calculadora"-->
+<!--        app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bookmark_add_24"
+        android:title="@string/New_Product"
+        app:showAsAction="never" />
+
+</menu>

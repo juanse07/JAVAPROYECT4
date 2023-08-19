@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/CompanyInfo">
+        <EditTextPreference
+            android:title="@string/CompanyName"
+            android:key="companyname"
+            android:summary="@string/CompanyName"
+            android:text="@string/CompanyName"
+
+            >
+
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:title="@string/Address"
+            android:key="companyaddress"
+            android:summary="@string/Address"
+            >
+
+        </EditTextPreference>
+        <EditTextPreference
+            android:title="@string/Email"
+            android:key="companyemail"
+            android:summary="@string/Email"
+            >
+
+        </EditTextPreference>
+        <EditTextPreference
+            android:title="@string/Mobile_phone"
+            android:key="companyphone"
+
+            android:summary="@string/Mobile_phone"
+            >
+
+        </EditTextPreference>
+        <PreferenceScreen
+            android:title="@string/Logo"
+            android:key="companylogo"
+            android:summary="@string/Logo">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.PyMESoft.Facturas"
+                android:targetClass="com.PyMESoft.Facturas.Activities.logochoose">
+
+            </intent>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/Signature"
+            android:key="companysignature"
+            android:summary="@string/Signature"
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.PyMESoft.Facturas"
+                android:targetClass="com.PyMESoft.Facturas.Signature1Activity">
+
+            </intent>
+        </PreferenceScreen>
+        <PreferenceCategory
+            android:title="@string/AppSettings">
+
+        <PreferenceScreen
+            android:title="@string/Language"
+            android:key="applang">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.PyMESoft.Facturas"
+                android:targetClass="com.PyMESoft.Facturas.SelectLanguaje">
+
+            </intent>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="@string/PdfTemplate"
+            android:key="pdftemp"
+            android:summary="@string/PdfTemplate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.PyMESoft.Facturas"
+                android:targetClass="com.PyMESoft.Facturas.Activities.PdfChoose">
+
+            </intent>
+
+        </PreferenceScreen>
+
+        </PreferenceCategory>
+
+
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/AccountInfo">
+        <EditTextPreference
+            android:title="@string/Email"
+            android:key="companyname"
+            android:summary="@string/Email"
+            android:text="PyeSoft"
+            >
+        </EditTextPreference>
+        <EditTextPreference
+            android:title="@string/fui_password_hint"
+            android:key="companyname"
+            android:summary="@string/fui_password_hint"
+            android:text="PyeSoft"
+            android:inputType="numberPassword"
+            >
+        </EditTextPreference>
+
+
+    </PreferenceCategory >
+
+</PreferenceScreen>

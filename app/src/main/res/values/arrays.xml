@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Perfil_Usuario">
+        <item>Credenciales</item>
+        <item>Contraseña</item>
+        <item>Cerrar Sesión</item>
+
+    </array>
+    <array name="Medida">
+        <item>Pies</item>
+        <item>Decímetro</item>
+    </array>
+    <array name="Empresa">
+        <item>Datos de Empresa</item>
+        <item>Logo</item>
+        <item>Firma</item>
+
+    </array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>

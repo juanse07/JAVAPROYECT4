@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/nobreproducto00"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="40"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="@color/colorNegrobrillante"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="12sp"
+        app:autoSizeMinTextSize="9sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textm2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/colorNegrobrillante"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="12sp"
+        app:autoSizeMinTextSize="9sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/colorNegrobrillante"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="12sp"
+        app:autoSizeMinTextSize="9sp"
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/deletesym"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+
+        android:layout_weight="10"
+        android:padding="7dp"
+        app:iconTint="#E5E5E5"
+        app:srcCompat="@drawable/ic_baseline_remove_circle_outline_18_red" />
+
+    <ImageView
+        android:id="@+id/addsym"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:padding="7dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_baseline_add_circle_outline_18" />
+
+</LinearLayout>
